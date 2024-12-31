@@ -60,8 +60,8 @@ public class AccountServiceImpl implements IAccountsService {
     }
 
     /**
-     * @param mobileNumber - Input Mobile Number
-     * @return Accounts Details based on a given mobileNumber
+     * @param mobileNumber
+     * @return
      */
     @Override
     public CustomerDto fetchAccount(String mobileNumber) {

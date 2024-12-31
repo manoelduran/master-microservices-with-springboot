@@ -12,8 +12,8 @@ public interface IAccountsService {
 
     /**
      *
-     * @param mobileNumber - Input Mobile Number
-     * @return Accounts Details based on a given mobileNumber
+     * @param mobileNumber
+     * @return
      */
     CustomerDto fetchAccount(String mobileNumber);
 
